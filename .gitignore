@@ -1,0 +1,19 @@
+cat <<EOF > .gitignore
+# Dependências e Build
+.dart_tool/
+build/
+.pub-cache/
+.pub/
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+*.iml
+
+# Arquivos de log e SO
+*.log
+.DS_Store
+
+# Pasta lib (se você realmente quiser ignorá-la, mas cuidado!)
+# lib/ 
+EOF
